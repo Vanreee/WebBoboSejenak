@@ -1,0 +1,2 @@
+@echo off
+start "" "D:\Tugas Kuliah\Semester 7\Web game\latihan projek web\Water Hunter\Water Hunter.exe"

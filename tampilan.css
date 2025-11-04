@@ -1,0 +1,138 @@
+body {
+  background: url('https://i.ibb.co.com/KpwQ0jqw/image2.jpg');        
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
+  background-position: center;   
+  color: white;                 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;         
+ 
+}
+
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+ul {
+  position: sticky;
+  top: 0;
+  background-color: #F4991A;
+  margin: 0;
+  padding: 0 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  z-index: 100;
+}
+
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #F9F5F0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #F9F5F0;
+  color: black;
+}
+
+
+h1{
+    color: #F9F5F0;
+    font-size: 70px;
+    font-weight: 90;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: Impact;
+    -webkit-text-stroke: #F4991A;
+    -webkit-text-stroke-width: 2.5px;
+}
+
+.video-container-1{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.video-container-2{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.video-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 560px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px grey;
+}
+
+iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 10px;
+}
+
+.playbutton {
+  text-align: center; 
+}
+
+
+.tombol {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #F4991A;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tombol:hover {
+  background-color: #F9F5F0;
+  color: black;
+  transform: scale(1.05);
+}
+
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: #F4991A; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #facc8b; 
+}

@@ -1,0 +1,142 @@
+body {
+  background: url('https://i.ibb.co.com/KpwQ0jqw/image2.jpg');        
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
+  background-position: center;   
+  color: white;                 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;         
+ 
+}
+
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+ul {
+  position: sticky;
+  top: 0;
+  background-color: #F4991A;
+  margin: 0;
+  padding: 0 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: left;
+  z-index: 100;
+}
+
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #F9F5F0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #F9F5F0;
+  color: black;
+}
+
+
+h1{
+  color: #F9F5F0;
+  font-size: 70px;
+  font-weight: 90;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: Impact;
+  -webkit-text-stroke: #F4991A;
+  -webkit-text-stroke-width: 2.5px;
+}
+
+.Game-Container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.Game-Card {
+  margin: center;
+  width: 960px;
+  height: 640px;
+  border: none;
+  overflow: hidden;
+}
+
+
+
+
+.tutorial {
+  text-align: center;
+  color: #F9F5F0;
+  margin-bottom: 100px;
+  font-size: 15px;
+  display: inline-block;
+  background-color: #00000073;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #f4991a4d;
+}
+
+.gerak{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+  
+}
+
+.interact{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+
+.tutorial h2 {
+  color: #F4991A;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.tutorial h3{
+  color: #F4991A;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: #F4991A; 
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #facc8b; 
+}

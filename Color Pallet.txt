@@ -1,0 +1,79 @@
+body {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://i.ibb.co.com/KpwQ0jqw/image2.jpg');        
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-attachment: fixed;  
+  background-position: center;   
+  color: white;                 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;            
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(244, 153, 26, 0.9); /* transparan sedikit biar nyatu sama bg */
+  backdrop-filter: blur(4px);
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #F9F5F0;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  background-color: #F9F5F0;
+  color: black;
+}
+
+
+
+h1{
+    color: #F9F5F0;
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F4991A;
+
+}
+
+
+.playbutton {
+  text-align: center; 
+}
+
+
+.tombol {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #F4991A;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tombol:hover {
+  background-color: #F9F5F0;
+  color: black;
+  transform: scale(1.05);
+}
