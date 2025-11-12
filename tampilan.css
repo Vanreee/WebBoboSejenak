@@ -136,3 +136,72 @@ footer a {
 footer a:hover {
   color: #facc8b; 
 }
+
+
+
+/* === BAGIAN ABOUT US === */
+.about-section {
+ /* background: rgba(0, 0, 0, 0.6);
+  padding: 60px 20px;
+  margin: 80px auto;
+  border-radius: 12px;
+  max-width: 1200px; */
+}
+
+.about-section h2 {
+  color: #F4991A;
+  font-size: 45px;
+  margin-bottom: 15px;
+  font-family: Impact, sans-serif;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px #F9F5F0;
+}
+
+.about-section .intro {
+  color: #F9F5F0;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-member {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 230px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(244, 153, 26, 0.6);
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #F4991A;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  color: #F9F5F0;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  color: #ccc;
+  font-size: 15px;
+}
